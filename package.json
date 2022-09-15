@@ -5,14 +5,18 @@
   "main": "FirstFile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "script_1" : "tsc FirstScript.ts -t ES5",
-    "script_2" : "tsc FirstScript.ts -removeComments",
-    "script_3" : "tsc FirstScript.ts -outDir compiled"
+    "format": "prettier --config .prettierrc **/*.ts --write",
+    "script_1": "tsc FirstScript.ts -t ES5",
+    "script_2": "tsc FirstScript.ts -removeComments",
+    "script_3": "tsc FirstScript.ts -outDir compiled"
   },
   "repository": {
     "type": "git",
     "url": "\\"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }

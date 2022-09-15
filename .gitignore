@@ -1,4 +1,4 @@
 .idea
 Andrew_Gerbed.7z
 .gitignore
-Andrew_Gerbed
+node_modules/
