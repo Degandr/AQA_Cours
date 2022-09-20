@@ -1,4 +1,4 @@
 .idea
-Andrew_Gerbed.7z
 .gitignore
 node_modules/
+.husky
