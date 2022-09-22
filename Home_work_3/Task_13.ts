@@ -1,4 +1,4 @@
-const qwst = "ug";
+const qwst = "";
 
 switch (qwst) {
   case "ug":
