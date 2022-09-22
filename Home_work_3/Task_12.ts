@@ -1,9 +1,10 @@
 const numm4 = 16;
 
-if (numm4 > 18) {
+if (numm4 >= 18) {
   console.log("Попей пивка");
-} else if (numm4 >= 16 && numm4 <= 18) {
+} else if (numm4 >= 16 && numm4 < 18) {
   console.log("Можешь выкурить сигаретку, только маме не говори");
+  console.log("Пей колу");
 } else {
   console.log("Пей колу");
 }

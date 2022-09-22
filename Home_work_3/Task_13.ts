@@ -1,10 +1,4 @@
-const qwst = "wostok";
-
-if (qwst == "ug" || qwst == "sever" || qwst == "thapad" || qwst == "wostok") {
-  console.log(`You chose ${qwst} - great!`);
-} else {
-  console.log("Once again pls");
-}
+const qwst = "ug";
 
 switch (qwst) {
   case "ug":
@@ -18,5 +12,8 @@ switch (qwst) {
     break;
   case "wostok":
     console.log(" на восток пойдешь разработчиком станешь");
+    break;
+  default:
+    console.log("Once again pls");
     break;
 }
