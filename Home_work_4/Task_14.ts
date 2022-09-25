@@ -1,6 +1,6 @@
 const date: Date = new Date();
 
-//first attempt
+//first method
 
 console.log(
   "текущая дата: ",
@@ -18,6 +18,6 @@ console.log(
   ".",
 );
 
-//second attempt
+//second method
 
 console.log("Текущая дата:", date.toLocaleDateString(), ".", "Текущее время", date.toLocaleTimeString());
