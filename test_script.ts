@@ -1,3 +1,1 @@
-const smth2 = 4;
-
-console.log(Math.random());
+console.log("I want sleep");
