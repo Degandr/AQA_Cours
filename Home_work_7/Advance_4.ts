@@ -1,4 +1,8 @@
-const mixedNumbers2 = [2, 3, 4, 100, -5];
+const mixedNumbers2: number[] = [];
+
+for (let i = 0; i < 6; i++) {
+  mixedNumbers2.push(Math.random());
+}
 
 const newMixed = [];
 
