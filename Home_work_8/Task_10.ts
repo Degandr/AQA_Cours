@@ -32,3 +32,4 @@ const fun = () => {
 
 console.log(elem2);
 console.log(elem3);
+console.log(fun);
